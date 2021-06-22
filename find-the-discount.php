@@ -12,4 +12,6 @@ and returns the final price after the discount. -->
     getDiscount(1500, 50); // 750
     getDiscount(89, 20); // 71.2
     getDiscount(100, 75); // 25
+
+    echo 'PHP version: ' . phpversion();
 ?>
