@@ -4,7 +4,7 @@ if its ASCII code is even and returns its lower case version if its ASCII code i
 <?php
     function asciiCapitalize($str) {
         $arrayOfLetters = str_split($str);
-    
+        
         $newArray = [];
 
         for($i = 0; $i < count($arrayOfLetters); $i++) {
