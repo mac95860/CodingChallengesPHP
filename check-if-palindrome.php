@@ -3,13 +3,13 @@ The function should return a boolean (true or false value). -->
 
 <?php
     function isPalindrome($string){
-        $string = preg_replace("/\W+/", '', $string);
+        string = preg_replace("/\W+/", '', $string);
         $string2 = strrev($string);
 
         if (strtolower($string) == strtolower($string2)) {
-            echo true;
+            return true;
         } else {
-            echo false;
+            return false;
         }
     }
         isPalindrome("bob"); // true
