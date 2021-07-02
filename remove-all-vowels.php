@@ -14,7 +14,6 @@ However, it seems that it doesn't work? Fix your friend's code so that it actual
                ($c == 'O') || ($c == 'U');
     }
 
-
     function removeVowels($str) {
         $newStr = "";
     
@@ -31,6 +30,4 @@ However, it seems that it doesn't work? Fix your friend's code so that it actual
     removeVowels("hello"); // hll
     removeVowels("Where did my vowels go?"); //whr dd my vwls g?
     removeVowels("A dog walks"); // dg wlks
-
-    
 ?>
