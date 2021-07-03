@@ -1,4 +1,8 @@
-<!-- Create a function that returns true if every number is prime and false if not -->
+<!-- 
+    From edabit.com:
+    Create a function that returns true if every number is prime and false if not
+    Remember, that 1 is not a prime number
+ -->
 
 <?php
     function containsPrime($arr) {
