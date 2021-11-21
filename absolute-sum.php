@@ -11,7 +11,7 @@
     }
 
     echo(
-        getAbsSum([2,5,-7])
+        getAbsSum([2,5,-7]) // 14
     );
 	
 ?>
